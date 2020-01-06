@@ -1,0 +1,60 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    font-size: 120%;
+    line-height: 1.5;
+}
+
+html,
+body,
+header{
+    height: 100%;
+}
+.about-title,
+.portfolio-title,
+.contact-title{
+    margin: 3rem 0;
+}
+
+/* Apresentação */
+.presentation{
+    height: 100%;
+}
+
+.presentation-box{
+    display: flex;
+    justify-content: center;
+    align-items: left; 
+    flex-direction: column;
+    height: 100%; 
+}
+.presentation-box .presentation-name{
+    margin: 1rem 0;
+    font-size: 3em;
+}
+
+.presentation-box .presentation-office{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+/* Sobre*/
+.about-description{
+    margin: 0 0 5rem 0;
+}
+
+/* Portfolio */
+.portfolio-item{
+    margin: 5em 0;
+}
+
+/* Contato */
+.contact .facebook{
+    display: block;
+    text-indent: -9999px;
+    width: auto;
+    height: 20px;
+    background: url(./img/icons/facebook.svg);
+    background-size: 20px 20px;
+}
